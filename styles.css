@@ -55,20 +55,20 @@ hr {
 	background-position: 256px, 0px;
 }
 
-.homebutton link {background-position: 0px 0px;}
-.homebutton visited {background-position: 0px 0px;}
-.homebutton hover {background-position: 0px 256px;}
-.homebutton active {background-position: 0px 256px;}
-.homebutton focus {background-position: 0px 512px;}
+.homebutton:link {background-position: 0px 0px;}
+.homebutton:visited {background-position: 0px 0px;}
+.homebutton:hover {background-position: 0px 256px;}
+.homebutton:active {background-position: 0px 256px;}
+.homebutton:focus {background-position: 0px 512px;}
 
-.projectsbutton link {background-position: 512px 0px;}
-.projectsbutton visited {background-position: 512px 0px;}
-.projectsbutton hover {background-position: 512px 256px;}
-.projectsbutton active {background-position: 512px 256px;}
-.projectsbutton focus {background-position: 512px 512px;}
+.projectsbutton:link {background-position: 512px 0px;}
+.projectsbutton:visited {background-position: 512px 0px;}
+.projectsbutton:hover {background-position: 512px 256px;}
+.projectsbutton:active {background-position: 512px 256px;}
+.projectsbutton:focus {background-position: 512px 512px;}
 
-.aboutbutton link {background-position: 256px 0px;}
-.aboutbutton visited {background-position: 256px 0px;}
-.aboutbutton hover {background-position: 256px 256px;}
-.aboutbutton active {background-position: 256px 256px;}
-.aboutbutton focus {background-position: 256px 512px;}
+.aboutbutton:link {background-position: 256px 0px;}
+.aboutbutton:visited {background-position: 256px 0px;}
+.aboutbutton:hover {background-position: 256px 256px;}
+.aboutbutton:active {background-position: 256px 256px;}
+.aboutbutton:focus {background-position: 256px 512px;}
