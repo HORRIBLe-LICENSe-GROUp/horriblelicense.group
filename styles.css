@@ -1,0 +1,74 @@
+body {
+	display: flex;
+}
+
+p {
+	color: #FFEEEE;
+	font-family: 'Arial Narrow', serif;
+}
+
+div {
+	background-color: #0F0E0E;
+	font-family: 'Arial Narrow', serif;
+}
+
+nav {
+	background-color: #0F0E0E;
+	font-family: 'Arial Narrow', serif;
+}
+
+hr {
+	height: 2px;
+	width: 90%;
+	border-width: 0;
+	color: #2c2c2c;
+	background-color: #2c2c2c;
+}
+
+.homebutton {
+	display: inline-block;
+	width: 256px;
+	height: 256px;
+	background-image: url('assets/images/buttonsheet.png');
+	border: none;
+	cursor: pointer;
+	background-position: 0px, 0px;
+}
+
+.projectsbutton {
+	display: inline-block;
+	width: 256px;
+	height: 256px;
+	background-image: url('assets/images/buttonsheet.png');
+	border: none;
+	cursor: pointer;
+	background-position: 512px, 0px;
+}
+
+.aboutbutton {
+	display: inline-block;
+	width: 256px;
+	height: 256px;
+	background-image: url('assets/images/buttonsheet.png');
+	border: none;
+	cursor: pointer;
+	background-position: 256px, 0px;
+}
+
+.homebutton:link {background-position: 0px 0px;}
+.homebutton:visited {background-position: 0px 0px;}
+.homebutton:hover {background-position: 0px 256px;}
+.homebutton:active {background-position: 0px 256px;}
+.homebutton:focus {background-position: 0px 512px;}
+
+.projectsbutton:link {background-position: 512px 0px;}
+.projectsbutton:visited {background-position: 512px 0px;}
+.projectsbutton:hover {background-position: 512px 256px;}
+.projectsbutton:active {background-position: 512px 256px;}
+.projectsbutton:focus {background-position: 512px 512px;}
+
+.aboutbutton:link {background-position: 256px 0px;}
+.aboutbutton:visited {background-position: 256px 0px;}
+.aboutbutton:hover {background-position: 256px 256px;}
+.aboutbutton:active {background-position: 256px 256px;}
+.aboutbutton:focus {background-position: 256px 512px;}
